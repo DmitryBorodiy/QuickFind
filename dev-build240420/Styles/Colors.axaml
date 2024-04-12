@@ -1,0 +1,25 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.ThemeDictionaries>
+        <ResourceDictionary x:Key="Light">
+            <SolidColorBrush x:Key="FlyoutBackdrop">#75FFFFFF</SolidColorBrush>
+            <SolidColorBrush x:Key="SearchBarColor">#DBFFFFFF</SolidColorBrush>
+            <SolidColorBrush x:Key="ChromeBorderBrush">#42000000</SolidColorBrush>
+        </ResourceDictionary>
+        <ResourceDictionary x:Key="Dark">
+            <SolidColorBrush x:Key="FlyoutBackdrop">#A80F0F0F</SolidColorBrush>
+            <SolidColorBrush x:Key="SearchBarColor">#B80F0F0F</SolidColorBrush>
+            <SolidColorBrush x:Key="ChromeBorderBrush">#0FFFFFFF</SolidColorBrush>
+        </ResourceDictionary>
+    </ResourceDictionary.ThemeDictionaries>
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary>
+            <ControlTheme x:Key="SearchBorder" TargetType="Border">
+                <Setter Property="CornerRadius" Value="9" />
+                <Setter Property="Background" Value="{DynamicResource SearchBarColor}" />
+                <Setter Property="BorderThickness" Value="0.8" />
+                <Setter Property="BorderBrush" Value="{DynamicResource ChromeBorderBrush}" />
+            </ControlTheme>
+            <ControlTheme x:Key="SearchInput" TargetType="AutoCompleteBox" />
+        </ResourceDictionary>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

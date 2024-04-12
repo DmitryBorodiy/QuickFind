@@ -1,0 +1,43 @@
+<Styles xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Design.PreviewWith>
+        <Border Width="800" Height="600">
+            <Border
+                x:Name="PreviewRectUI"
+                Width="100"
+                Height="100"
+                HorizontalAlignment="Center"
+                Background="Black"
+                Classes="hide">
+                <Border.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform />
+                        <TranslateTransform />
+                    </TransformGroup>
+                </Border.RenderTransform>
+            </Border>
+        </Border>
+    </Design.PreviewWith>
+
+    <Style Selector="Border.show">
+        <Style.Animations>
+            <Animation Easing="QuarticEaseInOut" Duration="0:0:0.5">
+                <KeyFrame Cue="0%">
+                    <Setter Property="ScaleTransform.ScaleX" Value="0" />
+                    <Setter Property="ScaleTransform.ScaleY" Value="0" />
+                    <Setter Property="TranslateTransform.Y" Value="-266" />
+                </KeyFrame>
+            </Animation>
+        </Style.Animations>
+    </Style>
+    <Style Selector="Border.hide">
+        <Style.Animations>
+            <Animation Easing="QuarticEaseInOut" Duration="0:0:0.4">
+                <KeyFrame Cue="100%">
+                    <Setter Property="ScaleTransform.ScaleX" Value="0" />
+                    <Setter Property="ScaleTransform.ScaleY" Value="0" />
+                    <Setter Property="TranslateTransform.Y" Value="-266" />
+                </KeyFrame>
+            </Animation>
+        </Style.Animations>
+    </Style>
+</Styles>

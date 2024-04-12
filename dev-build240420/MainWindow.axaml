@@ -1,0 +1,129 @@
+<Window
+    x:Class="QuickFind.MainWindow"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:custom="using:QuickFind.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:QuickFind"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="QuickFind"
+    Width="580"
+    MinWidth="220"
+    MinHeight="56"
+    d:DesignHeight="550"
+    d:DesignWidth="600"
+    Background="Transparent"
+    CornerRadius="9"
+    RequestedThemeVariant="Light"
+    ShowInTaskbar="False"
+    SystemDecorations="None"
+    TransparencyLevelHint="AcrylicBlur"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceInclude Source="avares://QuickFind/Styles/Colors.axaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid x:Name="RootLayout">
+        <Border
+            x:Name="SuggestionFlyoutUI"
+            Background="{DynamicResource FlyoutBackdrop}"
+            CornerRadius="14">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform />
+                    <RotateTransform />
+                    <TranslateTransform />
+                </TransformGroup>
+            </Border.RenderTransform>
+            <Grid>
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Text="Hello!" />
+            </Grid>
+        </Border>
+        <Border
+            x:Name="SearchBarBorderUI"
+            Height="56"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Top"
+            CornerRadius="9"
+            Theme="{StaticResource SearchBorder}">
+            <Grid Margin="20,0,10,0">
+                <Border
+                    Width="20"
+                    Height="20"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Tapped="ActiveArea_Tapped">
+                    <Grid>
+                        <PathIcon
+                            x:Name="SearchIconPathUI"
+                            Width="17"
+                            Height="17"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Center"
+                            Data="{StaticResource search_regular}"
+                            Opacity="0.8" />
+                    </Grid>
+                </Border>
+                <AutoCompleteBox
+                    x:Name="SearchBoxUI"
+                    Margin="24,0,100,0"
+                    VerticalAlignment="Center"
+                    Background="Transparent"
+                    BorderBrush="Transparent"
+                    FontSize="16"
+                    Watermark="Try 'Enable light mode'" />
+                <StackPanel
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Orientation="Horizontal"
+                    Spacing="12">
+                    <Button
+                        Width="40"
+                        Height="40"
+                        Background="Transparent"
+                        CornerRadius="9"
+                        ToolTip.Tip="Ask AI">
+                        <Button.Content>
+                            <PathIcon
+                                Width="20"
+                                Height="20"
+                                Data="{StaticResource sparcles_regular}"
+                                Opacity="0.8" />
+                        </Button.Content>
+                    </Button>
+                    <Button
+                        Width="40"
+                        Height="40"
+                        Background="Transparent"
+                        CornerRadius="9"
+                        Tapped="ActiveArea_Tapped"
+                        ToolTip.Tip="Voice search">
+                        <Button.Content>
+                            <PathIcon
+                                Width="20"
+                                Height="20"
+                                Data="{StaticResource mic_on_regular}"
+                                Opacity="0.8" />
+                        </Button.Content>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </Border>
+        <Border
+            x:Name="WindowBorderUI"
+            Background="{x:Null}"
+            BorderBrush="Transparent"
+            BorderThickness="4"
+            CornerRadius="14" />
+    </Grid>
+</Window>

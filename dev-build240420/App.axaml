@@ -1,0 +1,15 @@
+<Application
+    x:Class="QuickFind.App"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    RequestedThemeVariant="Default">
+    <Application.Styles>
+        <FluentTheme />
+        <StyleInclude Source="Styles/Icons.axaml" />
+        <StyleInclude Source="Styles/Animations.axaml" />
+    </Application.Styles>
+    <Application.Resources>
+        <FontFamily x:Key="FluentIcons">avares://Assets/Fonts/FluentSystemIcons-Regular.ttf</FontFamily>
+        <FontFamily x:Key="FluentIconsFilled">avares://Assets/Fonts/FluentSystemIcons-Filled.ttf</FontFamily>
+    </Application.Resources>
+</Application>
