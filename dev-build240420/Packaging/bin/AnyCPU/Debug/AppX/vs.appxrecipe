@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DMITRO-PC</Machine>
+    <WindowsUser>dimab</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>9d091297-02bb-4708-8d45-dd525fe5c211</PackageIdentityName>
+    <PackageIdentityPublisher>CN=dimab</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\dimab\Projects\QuickFind\gtk.test\Dist\QuickFind\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\dimab\Projects\QuickFind\gtk.test\Dist\QuickFind\bin\AnyCPU\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>CD6D2998F23457104573627BF6182C5E20B042C91AAFCD2FA8D32D774B8BDE37</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>9d091297-02bb-4708-8d45-dd525fe5c211_1.0.0.0_neutral__4kej7qmfbwdmm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>9d091297-02bb-4708-8d45-dd525fe5c211_4kej7qmfbwdmm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>9d091297-02bb-4708-8d45-dd525fe5c211</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=dimab</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\dimab\Projects\QuickFind\gtk.test\Dist\QuickFind\bin\AnyCPU\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-04-12T22:36:53.826</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\dimab\Projects\QuickFind\gtk.test\Dist\QuickFind\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-02-16T21:40:23.888</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\Projects\QuickFind\gtk.test\Dist\QuickFind\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2024-02-16T21:40:23.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\Projects\QuickFind\gtk.test\Dist\QuickFind\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-02-16T21:40:23.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\Projects\QuickFind\gtk.test\Dist\QuickFind\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-02-16T21:40:23.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\Projects\QuickFind\gtk.test\Dist\QuickFind\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-02-16T21:40:23.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\Projects\QuickFind\gtk.test\Dist\QuickFind\Images\StoreLogo.png">
+      <PackagePath>Images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-02-16T21:40:23.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\Projects\QuickFind\gtk.test\Dist\QuickFind\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-02-16T21:40:23.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\Projects\QuickFind\gtk.test\Dist\QuickFind\bin\AnyCPU\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2024-04-11T22:55:55.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia\11.0.10\lib\net6.0\Avalonia.Base.dll">
+      <PackagePath>QuickFind\Avalonia.Base.dll</PackagePath>
+      <Modified>2024-03-05T06:28:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia\11.0.10\lib\net6.0\Avalonia.Controls.dll">
+      <PackagePath>QuickFind\Avalonia.Controls.dll</PackagePath>
+      <Modified>2024-03-05T06:28:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia\11.0.10\lib\net6.0\Avalonia.DesignerSupport.dll">
+      <PackagePath>QuickFind\Avalonia.DesignerSupport.dll</PackagePath>
+      <Modified>2024-03-05T06:28:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia\11.0.10\lib\net6.0\Avalonia.Dialogs.dll">
+      <PackagePath>QuickFind\Avalonia.Dialogs.dll</PackagePath>
+      <Modified>2024-03-05T06:28:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia\11.0.10\lib\net6.0\Avalonia.Markup.Xaml.dll">
+      <PackagePath>QuickFind\Avalonia.Markup.Xaml.dll</PackagePath>
+      <Modified>2024-03-05T06:28:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia\11.0.10\lib\net6.0\Avalonia.Markup.dll">
+      <PackagePath>QuickFind\Avalonia.Markup.dll</PackagePath>
+      <Modified>2024-03-05T06:28:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia\11.0.10\lib\net6.0\Avalonia.Metal.dll">
+      <PackagePath>QuickFind\Avalonia.Metal.dll</PackagePath>
+      <Modified>2024-03-05T06:28:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia\11.0.10\lib\net6.0\Avalonia.MicroCom.dll">
+      <PackagePath>QuickFind\Avalonia.MicroCom.dll</PackagePath>
+      <Modified>2024-03-05T06:28:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia\11.0.10\lib\net6.0\Avalonia.OpenGL.dll">
+      <PackagePath>QuickFind\Avalonia.OpenGL.dll</PackagePath>
+      <Modified>2024-03-05T06:28:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia\11.0.10\lib\net6.0\Avalonia.dll">
+      <PackagePath>QuickFind\Avalonia.dll</PackagePath>
+      <Modified>2024-03-05T06:28:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia.controls.colorpicker\11.0.10\lib\net6.0\Avalonia.Controls.ColorPicker.dll">
+      <PackagePath>QuickFind\Avalonia.Controls.ColorPicker.dll</PackagePath>
+      <Modified>2024-03-05T06:28:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia.controls.datagrid\11.0.10\lib\net6.0\Avalonia.Controls.DataGrid.dll">
+      <PackagePath>QuickFind\Avalonia.Controls.DataGrid.dll</PackagePath>
+      <Modified>2024-03-05T06:28:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia.desktop\11.0.10\lib\net6.0\Avalonia.Desktop.dll">
+      <PackagePath>QuickFind\Avalonia.Desktop.dll</PackagePath>
+      <Modified>2024-03-05T06:28:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia.diagnostics\11.0.10\lib\net6.0\Avalonia.Diagnostics.dll">
+      <PackagePath>QuickFind\Avalonia.Diagnostics.dll</PackagePath>
+      <Modified>2024-03-05T06:28:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia.fonts.inter\11.0.10\lib\net6.0\Avalonia.Fonts.Inter.dll">
+      <PackagePath>QuickFind\Avalonia.Fonts.Inter.dll</PackagePath>
+      <Modified>2024-03-05T06:28:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia.freedesktop\11.0.10\lib\net6.0\Avalonia.FreeDesktop.dll">
+      <PackagePath>QuickFind\Avalonia.FreeDesktop.dll</PackagePath>
+      <Modified>2024-03-05T06:28:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia.native\11.0.10\lib\net6.0\Avalonia.Native.dll">
+      <PackagePath>QuickFind\Avalonia.Native.dll</PackagePath>
+      <Modified>2024-03-05T06:31:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia.remote.protocol\11.0.10\lib\net6.0\Avalonia.Remote.Protocol.dll">
+      <PackagePath>QuickFind\Avalonia.Remote.Protocol.dll</PackagePath>
+      <Modified>2024-03-05T06:28:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia.skia\11.0.10\lib\net6.0\Avalonia.Skia.dll">
+      <PackagePath>QuickFind\Avalonia.Skia.dll</PackagePath>
+      <Modified>2024-03-05T06:28:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia.themes.fluent\11.0.10\lib\net6.0\Avalonia.Themes.Fluent.dll">
+      <PackagePath>QuickFind\Avalonia.Themes.Fluent.dll</PackagePath>
+      <Modified>2024-03-05T06:28:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia.themes.simple\11.0.10\lib\net6.0\Avalonia.Themes.Simple.dll">
+      <PackagePath>QuickFind\Avalonia.Themes.Simple.dll</PackagePath>
+      <Modified>2024-03-05T06:28:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia.win32\11.0.10\lib\net6.0\Avalonia.Win32.dll">
+      <PackagePath>QuickFind\Avalonia.Win32.dll</PackagePath>
+      <Modified>2024-03-05T06:28:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia.x11\11.0.10\lib\net6.0\Avalonia.X11.dll">
+      <PackagePath>QuickFind\Avalonia.X11.dll</PackagePath>
+      <Modified>2024-03-05T06:28:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\harfbuzzsharp\7.3.0\lib\net6.0\HarfBuzzSharp.dll">
+      <PackagePath>QuickFind\HarfBuzzSharp.dll</PackagePath>
+      <Modified>2023-09-20T18:11:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microcom.runtime\0.11.0\lib\net5.0\MicroCom.Runtime.dll">
+      <PackagePath>QuickFind\MicroCom.Runtime.dll</PackagePath>
+      <Modified>2022-11-02T09:37:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.common\3.8.0\lib\netcoreapp3.1\Microsoft.CodeAnalysis.dll">
+      <PackagePath>QuickFind\Microsoft.CodeAnalysis.dll</PackagePath>
+      <Modified>2020-11-12T00:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp\3.8.0\lib\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll">
+      <PackagePath>QuickFind\Microsoft.CodeAnalysis.CSharp.dll</PackagePath>
+      <Modified>2020-11-12T00:15:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.8.0\lib\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <PackagePath>QuickFind\Microsoft.CodeAnalysis.CSharp.Scripting.dll</PackagePath>
+      <Modified>2020-11-12T00:15:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.scripting.common\3.8.0\lib\netcoreapp3.1\Microsoft.CodeAnalysis.Scripting.dll">
+      <PackagePath>QuickFind\Microsoft.CodeAnalysis.Scripting.dll</PackagePath>
+      <Modified>2020-11-12T00:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\skiasharp\2.88.7\lib\net6.0\SkiaSharp.dll">
+      <PackagePath>QuickFind\SkiaSharp.dll</PackagePath>
+      <Modified>2024-01-10T22:47:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\system.io.pipelines\6.0.0\lib\net6.0\System.IO.Pipelines.dll">
+      <PackagePath>QuickFind\System.IO.Pipelines.dll</PackagePath>
+      <Modified>2021-10-22T23:48:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\tmds.dbus.protocol\0.15.0\lib\net6.0\Tmds.DBus.Protocol.dll">
+      <PackagePath>QuickFind\Tmds.DBus.Protocol.dll</PackagePath>
+      <Modified>2023-04-24T09:14:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.common\3.8.0\lib\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>QuickFind\cs\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.common\3.8.0\lib\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>QuickFind\de\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.common\3.8.0\lib\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>QuickFind\es\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.common\3.8.0\lib\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>QuickFind\fr\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.common\3.8.0\lib\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>QuickFind\it\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.common\3.8.0\lib\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>QuickFind\ja\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.common\3.8.0\lib\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>QuickFind\ko\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.common\3.8.0\lib\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>QuickFind\pl\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.common\3.8.0\lib\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>QuickFind\pt-BR\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.common\3.8.0\lib\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>QuickFind\ru\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.common\3.8.0\lib\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>QuickFind\tr\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.common\3.8.0\lib\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>QuickFind\zh-Hans\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.common\3.8.0\lib\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>QuickFind\zh-Hant\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp\3.8.0\lib\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>QuickFind\cs\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp\3.8.0\lib\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>QuickFind\de\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp\3.8.0\lib\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>QuickFind\es\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp\3.8.0\lib\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>QuickFind\fr\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp\3.8.0\lib\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>QuickFind\it\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp\3.8.0\lib\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>QuickFind\ja\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp\3.8.0\lib\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>QuickFind\ko\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp\3.8.0\lib\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>QuickFind\pl\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp\3.8.0\lib\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>QuickFind\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp\3.8.0\lib\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>QuickFind\ru\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp\3.8.0\lib\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>QuickFind\tr\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp\3.8.0\lib\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>QuickFind\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp\3.8.0\lib\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>QuickFind\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.8.0\lib\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <PackagePath>QuickFind\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.8.0\lib\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <PackagePath>QuickFind\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.8.0\lib\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <PackagePath>QuickFind\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.8.0\lib\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <PackagePath>QuickFind\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.8.0\lib\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <PackagePath>QuickFind\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.8.0\lib\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <PackagePath>QuickFind\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.8.0\lib\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <PackagePath>QuickFind\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.8.0\lib\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <PackagePath>QuickFind\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.8.0\lib\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <PackagePath>QuickFind\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.8.0\lib\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <PackagePath>QuickFind\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.8.0\lib\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <PackagePath>QuickFind\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.8.0\lib\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <PackagePath>QuickFind\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.8.0\lib\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <PackagePath>QuickFind\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.scripting.common\3.8.0\lib\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <PackagePath>QuickFind\cs\Microsoft.CodeAnalysis.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.scripting.common\3.8.0\lib\netcoreapp3.1\de\Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <PackagePath>QuickFind\de\Microsoft.CodeAnalysis.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.scripting.common\3.8.0\lib\netcoreapp3.1\es\Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <PackagePath>QuickFind\es\Microsoft.CodeAnalysis.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.scripting.common\3.8.0\lib\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <PackagePath>QuickFind\fr\Microsoft.CodeAnalysis.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.scripting.common\3.8.0\lib\netcoreapp3.1\it\Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <PackagePath>QuickFind\it\Microsoft.CodeAnalysis.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.scripting.common\3.8.0\lib\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <PackagePath>QuickFind\ja\Microsoft.CodeAnalysis.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.scripting.common\3.8.0\lib\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <PackagePath>QuickFind\ko\Microsoft.CodeAnalysis.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.scripting.common\3.8.0\lib\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <PackagePath>QuickFind\pl\Microsoft.CodeAnalysis.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.scripting.common\3.8.0\lib\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <PackagePath>QuickFind\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.scripting.common\3.8.0\lib\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <PackagePath>QuickFind\ru\Microsoft.CodeAnalysis.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.scripting.common\3.8.0\lib\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <PackagePath>QuickFind\tr\Microsoft.CodeAnalysis.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.scripting.common\3.8.0\lib\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <PackagePath>QuickFind\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\microsoft.codeanalysis.scripting.common\3.8.0\lib\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <PackagePath>QuickFind\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll</PackagePath>
+      <Modified>2020-11-12T00:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia.angle.windows.natives\2.1.0.2023020321\runtimes\win-arm64\native\av_libglesv2.dll">
+      <PackagePath>QuickFind\runtimes\win-arm64\native\av_libglesv2.dll</PackagePath>
+      <Modified>2020-09-19T00:37:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia.angle.windows.natives\2.1.0.2023020321\runtimes\win-x64\native\av_libglesv2.dll">
+      <PackagePath>QuickFind\runtimes\win-x64\native\av_libglesv2.dll</PackagePath>
+      <Modified>2020-09-19T00:46:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia.angle.windows.natives\2.1.0.2023020321\runtimes\win-x86\native\av_libglesv2.dll">
+      <PackagePath>QuickFind\runtimes\win-x86\native\av_libglesv2.dll</PackagePath>
+      <Modified>2020-09-19T00:54:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\avalonia.native\11.0.10\runtimes\osx\native\libAvaloniaNative.dylib">
+      <PackagePath>QuickFind\runtimes\osx\native\libAvaloniaNative.dylib</PackagePath>
+      <Modified>2024-03-05T06:31:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\harfbuzzsharp.nativeassets.linux\7.3.0\runtimes\linux-arm\native\libHarfBuzzSharp.so">
+      <PackagePath>QuickFind\runtimes\linux-arm\native\libHarfBuzzSharp.so</PackagePath>
+      <Modified>2023-09-20T17:42:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\harfbuzzsharp.nativeassets.linux\7.3.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so">
+      <PackagePath>QuickFind\runtimes\linux-arm64\native\libHarfBuzzSharp.so</PackagePath>
+      <Modified>2023-09-20T17:42:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\harfbuzzsharp.nativeassets.linux\7.3.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so">
+      <PackagePath>QuickFind\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so</PackagePath>
+      <Modified>2023-09-20T17:42:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\harfbuzzsharp.nativeassets.linux\7.3.0\runtimes\linux-x64\native\libHarfBuzzSharp.so">
+      <PackagePath>QuickFind\runtimes\linux-x64\native\libHarfBuzzSharp.so</PackagePath>
+      <Modified>2023-09-20T17:42:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\harfbuzzsharp.nativeassets.macos\7.3.0\runtimes\osx\native\libHarfBuzzSharp.dylib">
+      <PackagePath>QuickFind\runtimes\osx\native\libHarfBuzzSharp.dylib</PackagePath>
+      <Modified>2023-09-20T17:42:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\harfbuzzsharp.nativeassets.win32\7.3.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll">
+      <PackagePath>QuickFind\runtimes\win-arm64\native\libHarfBuzzSharp.dll</PackagePath>
+      <Modified>2023-09-20T18:11:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\harfbuzzsharp.nativeassets.win32\7.3.0\runtimes\win-x64\native\libHarfBuzzSharp.dll">
+      <PackagePath>QuickFind\runtimes\win-x64\native\libHarfBuzzSharp.dll</PackagePath>
+      <Modified>2023-09-20T18:11:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\harfbuzzsharp.nativeassets.win32\7.3.0\runtimes\win-x86\native\libHarfBuzzSharp.dll">
+      <PackagePath>QuickFind\runtimes\win-x86\native\libHarfBuzzSharp.dll</PackagePath>
+      <Modified>2023-09-20T18:11:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\skiasharp.nativeassets.linux\2.88.7\runtimes\linux-arm\native\libSkiaSharp.so">
+      <PackagePath>QuickFind\runtimes\linux-arm\native\libSkiaSharp.so</PackagePath>
+      <Modified>2024-01-10T22:20:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\skiasharp.nativeassets.linux\2.88.7\runtimes\linux-arm64\native\libSkiaSharp.so">
+      <PackagePath>QuickFind\runtimes\linux-arm64\native\libSkiaSharp.so</PackagePath>
+      <Modified>2024-01-10T22:20:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\skiasharp.nativeassets.linux\2.88.7\runtimes\linux-musl-x64\native\libSkiaSharp.so">
+      <PackagePath>QuickFind\runtimes\linux-musl-x64\native\libSkiaSharp.so</PackagePath>
+      <Modified>2024-01-10T22:20:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\skiasharp.nativeassets.linux\2.88.7\runtimes\linux-x64\native\libSkiaSharp.so">
+      <PackagePath>QuickFind\runtimes\linux-x64\native\libSkiaSharp.so</PackagePath>
+      <Modified>2024-01-10T22:20:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\skiasharp.nativeassets.macos\2.88.7\runtimes\osx\native\libSkiaSharp.dylib">
+      <PackagePath>QuickFind\runtimes\osx\native\libSkiaSharp.dylib</PackagePath>
+      <Modified>2024-01-10T22:20:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\skiasharp.nativeassets.win32\2.88.7\runtimes\win-arm64\native\libSkiaSharp.dll">
+      <PackagePath>QuickFind\runtimes\win-arm64\native\libSkiaSharp.dll</PackagePath>
+      <Modified>2024-01-10T22:46:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\skiasharp.nativeassets.win32\2.88.7\runtimes\win-x64\native\libSkiaSharp.dll">
+      <PackagePath>QuickFind\runtimes\win-x64\native\libSkiaSharp.dll</PackagePath>
+      <Modified>2024-01-10T22:47:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\.nuget\packages\skiasharp.nativeassets.win32\2.88.7\runtimes\win-x86\native\libSkiaSharp.dll">
+      <PackagePath>QuickFind\runtimes\win-x86\native\libSkiaSharp.dll</PackagePath>
+      <Modified>2024-01-10T22:47:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\Projects\QuickFind\gtk.test\QuickFind\bin\Debug\net8.0\QuickFind.deps.json">
+      <PackagePath>QuickFind\QuickFind.deps.json</PackagePath>
+      <Modified>2024-04-12T21:31:17.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\Projects\QuickFind\gtk.test\QuickFind\obj\Debug\net8.0\apphost.exe">
+      <PackagePath>QuickFind\QuickFind.exe</PackagePath>
+      <Modified>2024-04-12T22:36:52.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\Projects\QuickFind\gtk.test\QuickFind\bin\Debug\net8.0\QuickFind.runtimeconfig.json">
+      <PackagePath>QuickFind\QuickFind.runtimeconfig.json</PackagePath>
+      <Modified>2024-04-12T21:07:27.172</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimab\Projects\QuickFind\gtk.test\QuickFind\bin\Debug\net8.0\QuickFind.dll">
+      <PackagePath>QuickFind\QuickFind.dll</PackagePath>
+      <Modified>2024-04-12T22:36:52.596</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
