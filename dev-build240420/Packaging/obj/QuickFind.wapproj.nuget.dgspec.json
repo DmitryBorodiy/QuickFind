@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dimab\\Projects\\QuickFind\\gtk.test\\Dist\\QuickFind\\QuickFind.wapproj": {}
+    "C:\\Users\\dimab\\Projects\\QuickFind\\repo\\QuickFind\\dev-build240420\\Packaging\\QuickFind.wapproj": {}
   },
   "projects": {
-    "C:\\Users\\dimab\\Projects\\QuickFind\\gtk.test\\Dist\\QuickFind\\QuickFind.wapproj": {
+    "C:\\Users\\dimab\\Projects\\QuickFind\\repo\\QuickFind\\dev-build240420\\Packaging\\QuickFind.wapproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dimab\\Projects\\QuickFind\\gtk.test\\Dist\\QuickFind\\QuickFind.wapproj",
+        "projectUniqueName": "C:\\Users\\dimab\\Projects\\QuickFind\\repo\\QuickFind\\dev-build240420\\Packaging\\QuickFind.wapproj",
         "projectName": "QuickFind",
-        "projectPath": "C:\\Users\\dimab\\Projects\\QuickFind\\gtk.test\\Dist\\QuickFind\\QuickFind.wapproj",
+        "projectPath": "C:\\Users\\dimab\\Projects\\QuickFind\\repo\\QuickFind\\dev-build240420\\Packaging\\QuickFind.wapproj",
         "packagesPath": "C:\\Users\\dimab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dimab\\Projects\\QuickFind\\gtk.test\\Dist\\QuickFind\\obj\\",
+        "outputPath": "C:\\Users\\dimab\\Projects\\QuickFind\\repo\\QuickFind\\dev-build240420\\Packaging\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

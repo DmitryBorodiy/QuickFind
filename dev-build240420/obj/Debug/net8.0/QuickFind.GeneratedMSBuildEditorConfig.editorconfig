@@ -13,18 +13,18 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QuickFind
-build_property.ProjectDir = C:\Users\dimab\Projects\QuickFind\gtk.test\QuickFind\
+build_property.ProjectDir = C:\Users\dimab\Projects\QuickFind\repo\QuickFind\dev-build240420\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/dimab/Projects/QuickFind/gtk.test/QuickFind/App.axaml]
+[C:/Users/dimab/Projects/QuickFind/repo/QuickFind/dev-build240420/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/dimab/Projects/QuickFind/gtk.test/QuickFind/MainWindow.axaml]
+[C:/Users/dimab/Projects/QuickFind/repo/QuickFind/dev-build240420/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/dimab/Projects/QuickFind/gtk.test/QuickFind/Styles/Colors.axaml]
+[C:/Users/dimab/Projects/QuickFind/repo/QuickFind/dev-build240420/Styles/Colors.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/dimab/Projects/QuickFind/gtk.test/QuickFind/Styles/Icons.axaml]
+[C:/Users/dimab/Projects/QuickFind/repo/QuickFind/dev-build240420/Styles/Icons.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

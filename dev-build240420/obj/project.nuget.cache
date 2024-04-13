@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mJaFoqNc61vYD9DBNyXPC+hKScBH3Ga3YjVwY25X2NTvksM92GZb6zl3ZwjCMU7avxNMFIxcSWQPgtD7HdQb4g==",
+  "dgSpecHash": "MRZ5EdbGQB6F2IMbOejlyOtbzh3+ymSpqSAvU0dC2eg6S6fvQIKVyqlgWTpKMqNIB6/LVi10D2TkxLcGdT49bQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dimab\\Projects\\QuickFind\\gtk.test\\QuickFind\\QuickFind.csproj",
+  "projectFilePath": "C:\\Users\\dimab\\Projects\\QuickFind\\repo\\QuickFind\\dev-build240420\\QuickFind.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dimab\\.nuget\\packages\\avalonia\\11.0.10\\avalonia.11.0.10.nupkg.sha512",
     "C:\\Users\\dimab\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.0.2023020321\\avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",

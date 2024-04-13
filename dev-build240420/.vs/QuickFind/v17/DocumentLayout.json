@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dimab\\Projects\\QuickFind\\gtk.test\\QuickFind\\",
+  "WorkspaceRootPath": "C:\\Users\\dimab\\Projects\\QuickFind\\repo\\QuickFind\\dev-build240420\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5ECBF127-8A33-4E84-888A-38877B3FB0E3}|QuickFind.csproj|c:\\users\\dimab\\projects\\quickfind\\gtk.test\\quickfind\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{5ECBF127-8A33-4E84-888A-38877B3FB0E3}|QuickFind.csproj|C:\\Users\\dimab\\Projects\\QuickFind\\repo\\QuickFind\\dev-build240420\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{5ECBF127-8A33-4E84-888A-38877B3FB0E3}|QuickFind.csproj|solutionrelative:mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ECBF127-8A33-4E84-888A-38877B3FB0E3}|QuickFind.csproj|c:\\users\\dimab\\projects\\quickfind\\gtk.test\\quickfind\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ECBF127-8A33-4E84-888A-38877B3FB0E3}|QuickFind.csproj|c:\\users\\dimab\\projects\\quickfind\\repo\\quickfind\\dev-build240420\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ECBF127-8A33-4E84-888A-38877B3FB0E3}|QuickFind.csproj|solutionrelative:mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\dimab\\Projects\\QuickFind\\gtk.test\\QuickFind\\MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\dimab\\Projects\\QuickFind\\repo\\QuickFind\\dev-build240420\\MainWindow.axaml",
               "RelativeDocumentMoniker": "MainWindow.axaml",
-              "ToolTip": "C:\\Users\\dimab\\Projects\\QuickFind\\gtk.test\\QuickFind\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\dimab\\Projects\\QuickFind\\repo\\QuickFind\\dev-build240420\\MainWindow.axaml",
               "RelativeToolTip": "MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-11T21:09:19.662Z",
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\dimab\\Projects\\QuickFind\\gtk.test\\QuickFind\\MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\dimab\\Projects\\QuickFind\\repo\\QuickFind\\dev-build240420\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "MainWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\dimab\\Projects\\QuickFind\\gtk.test\\QuickFind\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\dimab\\Projects\\QuickFind\\repo\\QuickFind\\dev-build240420\\MainWindow.axaml.cs",
               "RelativeToolTip": "MainWindow.axaml.cs",
-              "ViewState": "AQIAAEsAAAAABgAAAAAIwFcAAAAmAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAuwEUAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T21:09:15.215Z",
               "EditorCaption": ""
